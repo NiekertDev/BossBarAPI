@@ -4,11 +4,11 @@ namespace xenialdan\BossBarAPI;
 
 use pocketmine\entity\Entity;
 use pocketmine\level\Location;
-use pocketmine\network\protocol\AddEntityPacket;
-use pocketmine\network\protocol\MoveEntityPacket;
-use pocketmine\network\protocol\RemoveEntityPacket;
-use pocketmine\network\protocol\SetEntityDataPacket;
-use pocketmine\network\protocol\UpdateAttributesPacket;
+use pocketmine\network\mcpe\protocol\AddEntityPacket;
+use pocketmine\network\mcpe\protocol\MoveEntityPacket;
+use pocketmine\network\mcpe\protocol\RemoveEntityPacket;
+use pocketmine\network\mcpe\protocol\SetEntityDataPacket;
+use pocketmine\network\mcpe\protocol\UpdateAttributesPacket;
 use pocketmine\Player;
 use pocketmine\Server;
 

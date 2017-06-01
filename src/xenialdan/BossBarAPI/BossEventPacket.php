@@ -2,11 +2,11 @@
 
 namespace xenialdan\BossBarAPI;
 
-use pocketmine\network\protocol\DataPacket;
-use pocketmine\network\protocol\Info;
+use pocketmine\network\mcpe\protocol\DataPacket;
+use pocketmine\network\mcpe\protocol\ProtocolInfo;
 
 class BossEventPacket extends DataPacket {
-	const NETWORK_ID = Info::BOSS_EVENT_PACKET;
+	const NETWORK_ID = ProtocolInfo::BOSS_EVENT_PACKET;
 	public $eid;
 	public $state;
 
